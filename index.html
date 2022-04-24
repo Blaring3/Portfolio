@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfollio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape">
+
+                </div>
+                <div class="image">
+                    <img src="./4200.png" alt="NFT elrond">
+                </div>
+            </div>
+            <div class="right-header">
+                <span>
+                    Arthur Blaringhem
+                </span>
+                <p>Je suis un developeur Front-end junior formé en autoditacte. J'ai 19 ans et je poursuis ma
+                    réorientaion en tant que developeur.</p>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About
+                    <span>me</span><span class="bg-text">my stats</span>
+                </h2>
+                <div class="about-container">
+                    <div class="left-about">
+                        <h4>Information About me</h4>
+                        <p>Mes experimentation dans le code a commencé dès le lycée où j'ai coddé mes première ligne en
+                            html puis CSS. </br> J'ai commencé ma formation en javascript native en autoditacte grâce à
+                            plusieur tuto et Information sur le web. </br>
+                            Mon experience dans le monde du travail n'a pas de lien avec le devellopement mais partage
+                            les mêmes valeur de displicine est de rigeur à la tâche. J'ai eu l'occasion d'être
+                            brancardier à Lourde en bénévole et j'ai été serveurs en restaurant. </br> </p>
+
+                        <a href="./CV.pdf" class="main-btn">
+                            <div class="btn-con">
+
+                                <span class="bg-text"> Download CV</span>
+                                <span class="btn-icon"> <i class="fas fa-download"></i></span>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="about-stats">
+                        <h4 class="stat-title">My Skills</h4>
+                        <div class="progress-bars">
+                            <div class="progress-bar">
+                                <p class="prog-title">html5</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">80%</p>
+                                    <div class="progress">
+                                        <span class="html"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <p class="prog-title">css3</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">75%</p>
+                                    <div class="progress">
+                                        <span class="css"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <p class="prog-title">javascript</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">75%</p>
+                                    <div class="progress">
+                                        <span class="js"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <p class="prog-title">ReactJS</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">0%</p>
+                                    <div class="progress">
+                                        <span class="react"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress-bar">
+                                <p class="prog-title">NodeJS</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">20%</p>
+                                    <div class="progress">
+                                        <span class="node"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>
+                    My <span> Portfolio</span> <span class="bg-text">My work</span>
+                </h2>
+            </div>
+
+
+
+            <div class="grid-container">
+
+                <a href="/Souris_Project/index.html">
+                    <div class="helium flex"> <span class="SourisTitle">Mouse Event</br><i class='fa fa-github'></i></span>
+                    </div>
+                </a>
+
+                <a href="/NewScroll/index.html">
+                    <div class="Scroll flex"> <span class="SourisTitle">Scroll Event</br><i class='fa fa-github'></i></span>
+                    </div>
+                </a>
+                <a href="/To do list/index.html">
+                    <div class="TodoList flex"> <span>ToDo List </br><i class='fa fa-github'></i></span></div>
+                </a>
+                <div class="flex"></div>
+                <div class="flex"></div>
+                <div class="flex"></div>
+                <div class="flex"></div>
+                <div class="flex"></div>
+                <div class="flex"></div>
+            </div>
+
+        </section>
+        <section class="section sec4 blog" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>
+    </main>
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home"></div>
+        <div class="control control-2" data-id="about"><i class="fas fa-home"></i></div>
+        <div class="control control-3" data-id="portfolio"></div>
+        <div class="control control-4" data-id="blogs"></div>
+        <div class="control control-5" data-id="contact"></div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
